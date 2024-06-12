@@ -97,6 +97,16 @@
 // console.log(son(num));
 
 //11-masala
+function son(a) {
+  let result = 1;
+  for (let i = 1; i <= a; i++) {
+    result *= i;
+  }
+
+  return result;
+}
+let a = +prompt("sonni kiriting");
+console.log(son(a));
 
 // //12-masala
 // function yosh(i) {
@@ -155,6 +165,7 @@
 // }
 // let result = son(num);
 // console.log(son(result));
+
 //17-masala
 // function son(num1, num2) {
 //   return num1 - num2;
@@ -183,22 +194,22 @@
 // console.log(i);
 
 // //19-masala
-function son(a, b, c) {
-  let min;
-  if (a < b && b < c) {
-    min = a;
-  } else if (a < b && b > c && a < c) {
-    min = a;
-  }
-  if (a > b && b < c) {
-    min = b;
-  } else if (a > b && b > c) {
-    min = c;
-  }
-  return min;
-}
-let i = son(5, 8, 2);
-console.log(i);
+// function son(a, b, c) {
+//   let min;
+//   if (a < b && b < c) {
+//     min = a;
+//   } else if (a < b && b > c && a < c) {
+//     min = a;
+//   }
+//   if (a > b && b < c) {
+//     min = b;
+//   } else if (a > b && b > c) {
+//     min = c;
+//   }
+//   return min;
+// }
+// let i = son(5, 8, 2);
+// console.log(i);
 
 //20-masala
 
